@@ -52,13 +52,14 @@ const Navbar = () => {
             e.preventDefault();
             scrollToTop();
           }}
-          aria-label="Pulse Robot"
+          aria-label="INAW"
         >
-          <img 
-            src="/logo.svg" 
-            alt="Pulse Robot Logo" 
-            className="h-7 sm:h-8" 
-          />
+          <div className="flex items-center space-x-2">
+            <div className="w-8 h-8 bg-pulse-500 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-sm">I</span>
+            </div>
+            <span className="text-xl font-display font-bold text-gray-900">INAW</span>
+          </div>
         </a>
 
         {/* Desktop Navigation */}

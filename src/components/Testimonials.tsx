@@ -10,27 +10,27 @@ interface TestimonialProps {
 }
 
 const testimonials: TestimonialProps[] = [{
-  content: "Atlas transformed our production line, handling repetitive tasks while our team focuses on innovation. 30% increase in output within three months.",
-  author: "Sarah Chen",
-  role: "VP of Operations, Axion Manufacturing",
+  content: "INAW transformed our mall's LED displays into a revenue stream we never knew existed. We're now earning 40% more from our screens while helping local businesses promote themselves dynamically.",
+  author: "David Park",
+  role: "Property Manager, MetroCenter Mall",
   gradient: "from-blue-700 via-indigo-800 to-purple-900",
   backgroundImage: "/background-section1.png"
 }, {
-  content: "Implementing Atlas in our fulfillment centers reduced workplace injuries by 40% while improving order accuracy. The learning capabilities are remarkable.",
-  author: "Michael Rodriguez",
-  role: "Director of Logistics, GlobalShip",
+  content: "The transparent LED film installation was seamless, and we love how we can use it for our own promotions while earning extra income from targeted ads. Our customers are more engaged than ever.",
+  author: "Maria Gonzalez",
+  role: "Owner, Urban Café Chain",
   gradient: "from-indigo-900 via-purple-800 to-orange-500",
   backgroundImage: "/background-section2.png"
 }, {
-  content: "Atlas adapted to our lab protocols faster than any system we've used. It's like having another researcher who never gets tired and maintains perfect precision.",
-  author: "Dr. Amara Patel",
-  role: "Lead Scientist, BioAdvance Research",
+  content: "INAW's programmatic platform made advertising so much easier. We can target specific locations and times with our fitness campaigns, reaching exactly the right audience when they're most likely to act.",
+  author: "Alex Thompson",
+  role: "Marketing Director, FitLife Gyms",
   gradient: "from-purple-800 via-pink-700 to-red-500",
   backgroundImage: "/background-section3.png"
 }, {
-  content: "As a mid-size business, we never thought advanced robotics would be accessible to us. Atlas changed that equation entirely with its versatility and ease of deployment.",
-  author: "Jason Lee",
-  role: "CEO, Innovative Solutions Inc.",
+  content: "As a regional advertiser, INAW's marketplace gives us access to premium display inventory we could never afford individually. The targeting capabilities are incredible for local campaigns.",
+  author: "Jennifer Kim",
+  role: "Brand Manager, Local Retail Group",
   gradient: "from-orange-600 via-red-500 to-purple-600",
   backgroundImage: "/background-section1.png"
 }];
