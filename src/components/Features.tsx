@@ -92,51 +92,51 @@ const Features = () => {
       <div className="section-container">
         <div className="text-center mb-10 sm:mb-16">
           <div className="pulse-chip mx-auto mb-3 sm:mb-4 opacity-0 fade-in-element">
-            <span>Features</span>
+            <span>Funktionen</span>
           </div>
           <h2 className="section-title mb-3 sm:mb-4 opacity-0 fade-in-element">
-            Monetize Your Displays, <br className="hidden sm:block" />Maximize Your Revenue
+            Monetarisieren Sie Ihre Displays, <br className="hidden sm:block" />Maximieren Sie Ihre Einnahmen
           </h2>
           <p className="section-subtitle mx-auto opacity-0 fade-in-element">
-            Transform existing SMD/LED panels and new transparent installations into dynamic advertising platforms with our programmatic marketplace.
+            Verwandeln Sie bestehende SMD/LED-Panels und neue transparente Installationen in dynamische Werbeplattformen mit unserem programmatischen Marktplatz.
           </p>
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
           <FeatureCard
             icon={<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 sm:w-6 sm:h-6"><rect width="18" height="11" x="3" y="11" rx="2"></rect><path d="M14 6V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v2"></path><path d="M4 11h16"></path><path d="m8 7 4-4 4 4"></path></svg>}
-            title="Supply Side Partnerships"
-            description="Partner with existing SMD/LED panel owners in malls, cafes, gyms, and retail facades to monetize their displays."
+            title="Angebots-Partnerschaften"
+            description="Partnerschaften mit bestehenden SMD/LED-Panel-Besitzern in Einkaufszentren, Cafés, Fitnessstudios und Einzelhandelsfassaden zur Monetarisierung ihrer Displays."
             index={0}
           />
           <FeatureCard
             icon={<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 sm:w-6 sm:h-6"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path><path d="M8 14h.01"></path><path d="M12 14h.01"></path><path d="M16 14h.01"></path><path d="M8 18h.01"></path><path d="M12 18h.01"></path><path d="M16 18h.01"></path></svg>}
-            title="Transparent LED Films"
-            description="Install transparent LED film displays on shop windows at subsidized cost, creating dense local coverage in retail zones."
+            title="Transparente LED-Folien"
+            description="Installation transparenter LED-Foliendisplays an Schaufenstern zu subventionierten Kosten, wodurch eine dichte lokale Abdeckung in Einzelhandelszonen entsteht."
             index={1}
           />
           <FeatureCard
             icon={<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 sm:w-6 sm:h-6"><path d="M21 12c-1 0-3-1-3-3s2-3 3-3 3 1 3 3-2 3-3 3"></path><path d="M3 12c1 0 3-1 3-3s-2-3-3-3-3 1-3 3 2 3 3 3"></path><path d="M13 12h1"></path><path d="M13 18h1"></path><path d="M13 6h1"></path><path d="M9 12h1"></path><path d="M9 6h1"></path><path d="M9 18h1"></path></svg>}
-            title="Self-Promotion Platform"
-            description="Businesses use their screen space for dynamic self-promotion, product launches, and seasonal campaigns instead of static displays."
+            title="Eigenwerbungsplattform"
+            description="Unternehmen nutzen ihre Bildschirmfläche für dynamische Eigenwerbung, Produkteinführungen und saisonale Kampagnen anstelle statischer Displays."
             index={2}
           />
           <FeatureCard
             icon={<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 sm:w-6 sm:h-6"><path d="M12 8c-1.657 0-3-.895-3-2s1.343-2 3-2 3 .895 3 2-1.343 2-3 2z"></path><path d="M12 8v13"></path><path d="M9 11c-1.105 0-2-.895-2-2s.895-2 2-2"></path><path d="M15 11c1.105 0 2-.895 2-2s-.895-2-2-2"></path><path d="M9 21h6"></path></svg>}
-            title="Programmatic Marketplace"
-            description="Third-party advertisers buy ad space programmatically with flexible, real-time, location-based targeting like Uber for advertising."
+            title="Programmatischer Marktplatz"
+            description="Drittwerbetreibende kaufen Werbeflächen programmatisch mit flexiblem, echtzeitbasiertem, standortbezogenem Targeting - wie Uber für Werbung."
             index={3}
           />
           <FeatureCard
             icon={<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 sm:w-6 sm:h-6"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>}
-            title="Revenue Sharing"
-            description="Screen and shop owners earn recurring revenue from third-party advertisers while maintaining control over their space."
+            title="Umsatzbeteiligung"
+            description="Bildschirm- und Ladenbesitzer erhalten wiederkehrende Einnahmen von Drittwerbetreibenden, während sie die Kontrolle über ihren Raum behalten."
             index={4}
           />
           <FeatureCard
             icon={<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 sm:w-6 sm:h-6"><path d="M12 2a10 10 0 1 0 10 10 4 4 0 1 1-4-4"></path><path d="M12 8a4 4 0 1 0 4 4"></path><circle cx="12" cy="12" r="1"></circle></svg>}
-            title="Hyper-Local Targeting"
-            description="Advertisers reach customers with precise location-based, time-sensitive campaigns at competitive CPMs compared to traditional OOH media."
+            title="Hyper-lokales Targeting"
+            description="Werbetreibende erreichen Kunden mit präzisen standortbasierten, zeitkritischen Kampagnen zu wettbewerbsfähigen CPMs im Vergleich zu traditionellen OOH-Medien."
             index={5}
           />
         </div>

@@ -10,27 +10,27 @@ interface TestimonialProps {
 }
 
 const testimonials: TestimonialProps[] = [{
-  content: "INAW transformed our mall's LED displays into a revenue stream we never knew existed. We're now earning 40% more from our screens while helping local businesses promote themselves dynamically.",
+  content: "INAW hat die LED-Displays unseres Einkaufszentrums in eine Einnahmequelle verwandelt, von der wir nie wussten, dass sie existiert. Wir verdienen jetzt 40% mehr mit unseren Bildschirmen und helfen lokalen Unternehmen bei der dynamischen Eigenwerbung.",
   author: "David Park",
-  role: "Property Manager, MetroCenter Mall",
+  role: "Immobilienmanager, MetroCenter Mall",
   gradient: "from-blue-700 via-indigo-800 to-purple-900",
   backgroundImage: "/background-section1.png"
 }, {
-  content: "The transparent LED film installation was seamless, and we love how we can use it for our own promotions while earning extra income from targeted ads. Our customers are more engaged than ever.",
+  content: "Die Installation der transparenten LED-Folie war nahtlos, und wir lieben es, wie wir sie für unsere eigenen Promotionen nutzen können, während wir zusätzliche Einnahmen durch gezielte Werbung erzielen. Unsere Kunden sind engagierter denn je.",
   author: "Maria Gonzalez",
-  role: "Owner, Urban Café Chain",
+  role: "Inhaberin, Urban Café Kette",
   gradient: "from-indigo-900 via-purple-800 to-orange-500",
   backgroundImage: "/background-section2.png"
 }, {
-  content: "INAW's programmatic platform made advertising so much easier. We can target specific locations and times with our fitness campaigns, reaching exactly the right audience when they're most likely to act.",
+  content: "INAWs programmatische Plattform hat Werbung so viel einfacher gemacht. Wir können bestimmte Standorte und Zeiten mit unseren Fitness-Kampagnen ansprechen und erreichen genau die richtige Zielgruppe, wenn sie am ehesten handeln wird.",
   author: "Alex Thompson",
-  role: "Marketing Director, FitLife Gyms",
+  role: "Marketing-Direktor, FitLife Gyms",
   gradient: "from-purple-800 via-pink-700 to-red-500",
   backgroundImage: "/background-section3.png"
 }, {
-  content: "As a regional advertiser, INAW's marketplace gives us access to premium display inventory we could never afford individually. The targeting capabilities are incredible for local campaigns.",
+  content: "Als regionaler Werbetreibender gibt uns INAWs Marktplatz Zugang zu Premium-Display-Inventar, das wir uns einzeln nie leisten könnten. Die Targeting-Fähigkeiten sind unglaublich für lokale Kampagnen.",
   author: "Jennifer Kim",
-  role: "Brand Manager, Local Retail Group",
+  role: "Brand Managerin, Lokale Einzelhandelsgruppe",
   gradient: "from-orange-600 via-red-500 to-purple-600",
   backgroundImage: "/background-section1.png"
 }];
@@ -64,11 +64,11 @@ const Testimonials = () => {
         <div className="flex items-center gap-4 mb-6">
           <div className="pulse-chip">
             <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">04</span>
-            <span>Testimonials</span>
+            <span>Referenzen</span>
           </div>
         </div>
         
-        <h2 className="text-5xl font-display font-bold mb-12 text-left">What others say</h2>
+        <h2 className="text-5xl font-display font-bold mb-12 text-left">Was andere sagen</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {testimonials.map((testimonial, index) => <TestimonialCard key={index} content={testimonial.content} author={testimonial.author} role={testimonial.role} gradient={testimonial.gradient} backgroundImage={testimonial.backgroundImage} />)}

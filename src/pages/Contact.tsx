@@ -17,8 +17,8 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Message Sent!",
-      description: "Thank you for your inquiry. We'll get back to you soon.",
+      title: "Nachricht gesendet!",
+      description: "Vielen Dank für Ihre Anfrage. Wir melden uns bald bei Ihnen.",
     });
     setFormData({ name: "", email: "", company: "", message: "" });
   };
@@ -35,22 +35,22 @@ const Contact = () => {
       <div className="pt-24 pb-16">
         <div className="section-container">
           <div className="text-center mb-12">
-            <h1 className="section-title mb-4">Get Started with INAW</h1>
+            <h1 className="section-title mb-4">Starten Sie mit INAW</h1>
             <p className="section-subtitle mx-auto">
-              Ready to transform your displays into revenue streams? Contact us to learn more about our digital advertising marketplace.
+              Bereit, Ihre Displays in Umsatzquellen zu verwandeln? Kontaktieren Sie uns, um mehr über unseren digitalen Werbemarktplatz zu erfahren.
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div className="bg-white rounded-2xl p-8 shadow-elegant">
-              <h2 className="text-2xl font-semibold mb-6">Send us a message</h2>
+              <h2 className="text-2xl font-semibold mb-6">Senden Sie uns eine Nachricht</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <Input
                     type="text"
                     name="name"
-                    placeholder="Your Name"
+                    placeholder="Ihr Name"
                     value={formData.name}
                     onChange={handleChange}
                     required
@@ -60,7 +60,7 @@ const Contact = () => {
                   <Input
                     type="email"
                     name="email"
-                    placeholder="Your Email"
+                    placeholder="Ihre E-Mail"
                     value={formData.email}
                     onChange={handleChange}
                     required
@@ -70,7 +70,7 @@ const Contact = () => {
                   <Input
                     type="text"
                     name="company"
-                    placeholder="Company Name"
+                    placeholder="Firmenname"
                     value={formData.company}
                     onChange={handleChange}
                   />
@@ -78,7 +78,7 @@ const Contact = () => {
                 <div>
                   <Textarea
                     name="message"
-                    placeholder="Tell us about your displays or advertising needs..."
+                    placeholder="Erzählen Sie uns von Ihren Displays oder Werbebedürfnissen..."
                     value={formData.message}
                     onChange={handleChange}
                     rows={4}
@@ -87,7 +87,7 @@ const Contact = () => {
                 </div>
                 <Button type="submit" className="w-full button-primary">
                   <Send className="w-4 h-4 mr-2" />
-                  Send Message
+                  Nachricht senden
                 </Button>
               </form>
             </div>
@@ -95,12 +95,12 @@ const Contact = () => {
             {/* Contact Information */}
             <div className="space-y-8">
               <div className="bg-white rounded-2xl p-8 shadow-elegant">
-                <h2 className="text-2xl font-semibold mb-6">Contact Information</h2>
+                <h2 className="text-2xl font-semibold mb-6">Kontaktinformationen</h2>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-4">
                     <Mail className="w-6 h-6 text-pulse-500" />
                     <div>
-                      <p className="font-medium">Email</p>
+                      <p className="font-medium">E-Mail</p>
                       <a href="mailto:info@hept.de" className="text-gray-600 hover:text-pulse-500">
                         info@hept.de
                       </a>
@@ -109,7 +109,7 @@ const Contact = () => {
                   <div className="flex items-center space-x-4">
                     <Phone className="w-6 h-6 text-pulse-500" />
                     <div>
-                      <p className="font-medium">Phone</p>
+                      <p className="font-medium">Telefon</p>
                       <a href="tel:+49123456789" className="text-gray-600 hover:text-pulse-500">
                         +49 123 456 789
                       </a>
@@ -119,23 +119,23 @@ const Contact = () => {
               </div>
 
               <div className="bg-pulse-50 rounded-2xl p-8">
-                <h3 className="text-xl font-semibold mb-4">Why Choose INAW?</h3>
+                <h3 className="text-xl font-semibold mb-4">Warum INAW wählen?</h3>
                 <ul className="space-y-3 text-sm">
                   <li className="flex items-start space-x-2">
                     <span className="w-2 h-2 bg-pulse-500 rounded-full mt-2 flex-shrink-0"></span>
-                    <span>Two-sided marketplace connecting display owners with advertisers</span>
+                    <span>Zweiseitiger Marktplatz, der Display-Besitzer mit Werbetreibenden verbindet</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="w-2 h-2 bg-pulse-500 rounded-full mt-2 flex-shrink-0"></span>
-                    <span>Transparent LED film installations at subsidized costs</span>
+                    <span>Transparente LED-Folien-Installationen zu subventionierten Kosten</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="w-2 h-2 bg-pulse-500 rounded-full mt-2 flex-shrink-0"></span>
-                    <span>Programmatic, location-based advertising platform</span>
+                    <span>Programmatische, standortbasierte Werbeplattform</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="w-2 h-2 bg-pulse-500 rounded-full mt-2 flex-shrink-0"></span>
-                    <span>Revenue sharing for display and shop owners</span>
+                    <span>Umsatzbeteiligung für Display- und Ladenbesitzer</span>
                   </li>
                 </ul>
               </div>

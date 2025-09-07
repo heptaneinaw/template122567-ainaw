@@ -16,13 +16,13 @@ const Footer = () => {
               <span className="text-xl font-display font-bold">INAW</span>
             </div>
             <p className="text-gray-300 mb-4">
-              Transform your digital displays into dynamic revenue-generating media assets with our two-sided advertising marketplace.
+              Intelligente Nutzung und Automatisierung von Werbefläche. Verwandeln Sie Ihre Displays in dynamische, umsatzgenerierende Medien-Assets.
             </p>
           </div>
           
           {/* Contact Information */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+            <h3 className="text-lg font-semibold mb-4">Kontakt</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-pulse-500" />
@@ -41,16 +41,16 @@ const Footer = () => {
           
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4">Schnellzugriff</h3>
             <div className="space-y-2">
               <a href="#features" className="block text-gray-300 hover:text-white transition-colors">
-                How It Works
+                Wie es funktioniert
               </a>
               <a href="#testimonials" className="block text-gray-300 hover:text-white transition-colors">
-                Success Stories
+                Erfolgsgeschichten
               </a>
               <a href="/contact" className="block text-gray-300 hover:text-white transition-colors">
-                Get Started
+                Jetzt starten
               </a>
             </div>
           </div>
@@ -58,7 +58,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2024 INAW. All rights reserved. Transforming displays into revenue streams.
+            © 2024 INAW. Alle Rechte vorbehalten. Displays in Umsatzquellen verwandeln.
           </p>
         </div>
       </div>

@@ -72,10 +72,10 @@ const Navbar = () => {
               scrollToTop();
             }}
           >
-            Home
+            Start
           </a>
-          <a href="#features" className="nav-link">About</a>
-          <a href="#details" className="nav-link">Contact</a>
+          <a href="#features" className="nav-link">Über uns</a>
+          <a href="/contact" className="nav-link">Kontakt</a>
         </nav>
 
         {/* Mobile menu button - increased touch target */}
@@ -104,7 +104,7 @@ const Navbar = () => {
               document.body.style.overflow = '';
             }}
           >
-            Home
+            Start
           </a>
           <a 
             href="#features" 
@@ -114,17 +114,17 @@ const Navbar = () => {
               document.body.style.overflow = '';
             }}
           >
-            About
+            Über uns
           </a>
           <a 
-            href="#details" 
+            href="/contact" 
             className="text-xl font-medium py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100" 
             onClick={() => {
               setIsMenuOpen(false);
               document.body.style.overflow = '';
             }}
           >
-            Contact
+            Kontakt
           </a>
         </nav>
       </div>
