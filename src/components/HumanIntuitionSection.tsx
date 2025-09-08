@@ -1,5 +1,6 @@
 
 import React, { useRef } from "react";
+import inawAdvantagesGraphic from "@/assets/inaw-advantages-graphic.jpg";
 
 const HumanIntuitionSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -36,6 +37,21 @@ const HumanIntuitionSection = () => {
                 </li>
               ))}
             </ul>
+          </div>
+          
+          <div className="relative">
+            <div className="relative overflow-hidden rounded-2xl shadow-elegant">
+              <img 
+                src={inawAdvantagesGraphic} 
+                alt="INAW intelligentes Werbenetzwerk Visualisierung mit vernetzten LED-Displays" 
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-pulse-500/20 to-transparent"></div>
+            </div>
+            
+            {/* Decorative elements */}
+            <div className="absolute -top-4 -right-4 w-24 h-24 bg-pulse-100/50 rounded-full blur-xl"></div>
+            <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-pulse-300/30 rounded-full blur-lg"></div>
           </div>
         </div>
       </div>
