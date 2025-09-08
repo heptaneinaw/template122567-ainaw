@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import INAWVisionSection from "@/components/INAWVisionSection";
 import ImageShowcaseSection from "@/components/ImageShowcaseSection";
-import DOOHShowcaseSection from "@/components/RobotShowcaseSection";
+import DOOHShowcaseSection from "@/components/DOOHShowcaseSection";
 import HumanIntuitionSection from "@/components/HumanIntuitionSection";
 import Features from "@/components/Features";
 import Testimonials from "@/components/Testimonials";
