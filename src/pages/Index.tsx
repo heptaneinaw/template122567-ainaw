@@ -2,10 +2,10 @@
 import React, { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import HumanoidSection from "@/components/HumanoidSection";
-import SpecsSection from "@/components/SpecsSection";
-import DetailsSection from "@/components/DetailsSection";
+import INAWVisionSection from "@/components/INAWVisionSection";
 import ImageShowcaseSection from "@/components/ImageShowcaseSection";
+import DOOHShowcaseSection from "@/components/RobotShowcaseSection";
+import HumanIntuitionSection from "@/components/HumanIntuitionSection";
 import Features from "@/components/Features";
 import Testimonials from "@/components/Testimonials";
 import Newsletter from "@/components/Newsletter";
@@ -61,12 +61,12 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <main className="space-y-4 sm:space-y-8"> {/* Reduced space on mobile */}
+      <main className="space-y-4 sm:space-y-8">
         <Hero />
-        <HumanoidSection />
-        <SpecsSection />
-        <DetailsSection />
+        <INAWVisionSection />
         <ImageShowcaseSection />
+        <DOOHShowcaseSection />
+        <HumanIntuitionSection />
         <Features />
         <Testimonials />
         <Newsletter />
