@@ -35,15 +35,6 @@ const ImageShowcaseSection = () => {
   return (
     <section className="w-full py-20 bg-gradient-to-br from-blue-900 via-indigo-800 to-blue-700" id="showcase">
       <div className="container px-4 sm:px-6 lg:px-8 mx-auto">
-        <div className="max-w-3xl mx-auto text-center mb-12 animate-on-scroll">
-          <h2 className="text-3xl sm:text-4xl font-display font-bold tracking-tight text-white mb-4">
-            Die Zukunft der digitalen Werbung
-          </h2>
-          <p className="text-base sm:text-lg text-white/90">
-            INAW verwandelt bestehende Displays und neue transparente LED-Installationen in einen intelligenten, programmatischen Werbemarktplatz.
-          </p>
-        </div>
-        
         <div className="relative max-w-5xl mx-auto" style={{ minHeight: '600px' }}>
           {panels.map((panel, index) => (
             <div
