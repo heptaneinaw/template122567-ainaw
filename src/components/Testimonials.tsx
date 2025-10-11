@@ -19,8 +19,8 @@ const useCases: UseCaseProps[] = [{
   gradient: "from-indigo-900 via-purple-800 to-orange-500",
   backgroundImage: "/background-section2.png"
 }, {
-  title: "Fitnessstudios & Wellnesscenter",
-  content: "Erreichen Sie gesundheitsbewusste Zielgruppen mit präzisem Timing. Werbetreibende können Fitness-, Ernährungs- und Lifestyle-Kampagnen genau dann ausspielen, wenn die Zielgruppe am empfänglichsten ist.",
+  title: "Einzelhandelsgeschäfte & Shopping-Bereiche",
+  content: "Verwandeln Sie Schaufenster in dynamische Werbeflächen. Lokale Geschäfte profitieren von Eigenwerbung und zusätzlichen Einnahmen durch regionale Werbepartnerschaften mit optimaler Kundenreichweite.",
   gradient: "from-purple-800 via-pink-700 to-red-500",
   backgroundImage: "/background-section3.png"
 }, {

@@ -33,54 +33,60 @@ const ImageShowcaseSection = () => {
   }, []);
 
   return (
-    <section className="w-full pt-0 pb-8 sm:pb-12 bg-white" id="showcase">
+    <section className="w-full py-20 bg-gradient-to-br from-blue-900 via-indigo-800 to-blue-700" id="showcase">
       <div className="container px-4 sm:px-6 lg:px-8 mx-auto">
-        <div className="max-w-3xl mx-auto text-center mb-8 sm:mb-12 animate-on-scroll">
-          <h2 className="text-3xl sm:text-4xl font-display font-bold tracking-tight text-gray-900 mb-3 sm:mb-4">
-            Die Zukunft der programmatischen DOOH-Werbung
+        <div className="max-w-3xl mx-auto text-center mb-12 animate-on-scroll">
+          <h2 className="text-3xl sm:text-4xl font-display font-bold tracking-tight text-white mb-4">
+            Die Zukunft der digitalen Werbung
           </h2>
-          <p className="text-base sm:text-lg text-gray-600">
-            Unsere fortschrittliche Plattform revolutioniert die Art und Weise, wie digitale Werbeflächen 
-            genutzt und monetarisiert werden - intelligent, automatisiert und hocheffizient.
+          <p className="text-base sm:text-lg text-white/90">
+            INAW verwandelt bestehende Displays und neue transparente LED-Installationen in einen intelligenten, programmatischen Werbemarktplatz.
           </p>
         </div>
         
-        <div className="relative max-w-4xl mx-auto">
+        <div className="relative max-w-5xl mx-auto" style={{ minHeight: '600px' }}>
           {panels.map((panel, index) => (
             <div
               key={index}
-              className={`rounded-2xl sm:rounded-3xl overflow-hidden shadow-elegant transition-all duration-700 ${
+              className={`absolute left-1/2 top-1/2 w-full transition-all duration-700 ease-out ${
                 activePanel === index 
-                  ? 'opacity-100 relative z-10' 
-                  : 'opacity-0 absolute inset-0 z-0'
+                  ? 'opacity-100 z-30 -translate-x-1/2 -translate-y-1/2 scale-100' 
+                  : activePanel === (index + 1) % 3
+                  ? 'opacity-60 z-20 -translate-x-1/2 translate-y-[-45%] scale-95'
+                  : 'opacity-30 z-10 -translate-x-1/2 translate-y-[-40%] scale-90'
               }`}
+              style={{
+                transformOrigin: 'center center'
+              }}
             >
-              <div className="w-full">
-                <img 
-                  src={panel.image}
-                  alt={panel.title}
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-              <div className="bg-white p-4 sm:p-8">
-                <h3 className="text-xl sm:text-2xl font-display font-semibold mb-3 sm:mb-4">{panel.title}</h3>
-                <p className="text-gray-700 text-sm sm:text-base">
-                  {panel.description}
-                </p>
+              <div className="rounded-3xl overflow-hidden shadow-2xl bg-white">
+                <div className="w-full">
+                  <img 
+                    src={panel.image}
+                    alt={panel.title}
+                    className="w-full h-80 object-cover"
+                  />
+                </div>
+                <div className="bg-white p-8">
+                  <h3 className="text-2xl font-display font-semibold mb-4 text-gray-900">{panel.title}</h3>
+                  <p className="text-gray-700 text-base leading-relaxed">
+                    {panel.description}
+                  </p>
+                </div>
               </div>
             </div>
           ))}
           
           {/* Navigation Dots */}
-          <div className="flex justify-center gap-2 mt-6">
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 flex justify-center gap-2 z-40">
             {panels.map((_, index) => (
               <button
                 key={index}
                 onClick={() => setActivePanel(index)}
                 className={`w-2 h-2 rounded-full transition-all duration-300 ${
                   activePanel === index 
-                    ? 'bg-pulse-500 w-8' 
-                    : 'bg-gray-300 hover:bg-gray-400'
+                    ? 'bg-white w-8' 
+                    : 'bg-white/40 hover:bg-white/60'
                 }`}
                 aria-label={`Panel ${index + 1}`}
               />
