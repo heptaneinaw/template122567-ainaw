@@ -63,7 +63,7 @@ const INAWVisionSection = () => {
   };
 
   return (
-    <div ref={sectionRef} style={{ height: '300vh' }} className="relative" id="inaw-vision">
+    <div ref={sectionRef} style={{ height: '300vh' }} className="relative -mt-20" id="inaw-vision">
       <div ref={cardsContainerRef} className="sticky top-0 h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 overflow-hidden">
         
         {/* First Card - INAW Marketplace Vision */}
