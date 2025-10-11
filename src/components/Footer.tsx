@@ -46,8 +46,8 @@ const Footer = () => {
               <a href="#features" className="block text-gray-300 hover:text-white transition-colors">
                 Wie es funktioniert
               </a>
-              <a href="#testimonials" className="block text-gray-300 hover:text-white transition-colors">
-                Erfolgsgeschichten
+              <a href="#use-cases" className="block text-gray-300 hover:text-white transition-colors">
+                Anwendungsszenarien
               </a>
               <a href="/contact" className="block text-gray-300 hover:text-white transition-colors">
                 Jetzt starten
