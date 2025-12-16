@@ -9,11 +9,20 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-pulse-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">I</span>
+            <div className="flex items-center space-x-3 mb-4">
+              {/* Window-style logo with "i" */}
+              <div className="w-10 h-10 bg-pulse-500 rounded-lg flex items-center justify-center relative overflow-hidden shadow-md">
+                {/* Window panes */}
+                <div className="absolute inset-0 grid grid-cols-2 grid-rows-2 gap-[2px] p-[3px]">
+                  <div className="bg-white/25 rounded-sm"></div>
+                  <div className="bg-white/25 rounded-sm"></div>
+                  <div className="bg-white/25 rounded-sm"></div>
+                  <div className="bg-white/25 rounded-sm"></div>
+                </div>
+                {/* Stylized "i" */}
+                <span className="text-white font-bold text-lg z-10 italic drop-shadow-sm">i</span>
               </div>
-              <span className="text-xl font-display font-bold">INAW</span>
+              <span className="text-2xl font-display font-bold">INAW</span>
             </div>
             <p className="text-gray-300 mb-4">
               Intelligente Nutzung und Automatisierung von Werbefläche. Verwandeln Sie Ihre Displays in dynamische, umsatzgenerierende Medien-Assets.
@@ -26,8 +35,8 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-pulse-500" />
-                <a href="mailto:info@hept.de" className="text-gray-300 hover:text-white transition-colors">
-                  info@hept.de
+                <a href="mailto:info@heptane.de" className="text-gray-300 hover:text-white transition-colors">
+                  info@heptane.de
                 </a>
               </div>
               <div className="flex items-center space-x-3">
