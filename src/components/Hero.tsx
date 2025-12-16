@@ -24,7 +24,7 @@ const Hero = () => {
   }, []);
 
   useEffect(() => {
-    fetch('/loop-header.lottie')
+    fetch('loop-header.lottie')
       .then(response => response.json())
       .then(data => setLottieData(data))
       .catch(error => console.error("Error loading Lottie animation:", error));
@@ -92,7 +92,7 @@ const Hero = () => {
       className="overflow-hidden relative bg-cover" 
       id="hero" 
       style={{
-        backgroundImage: 'url("/Header-background.webp")',
+        backgroundImage: 'url("Header-background.webp")',
         backgroundPosition: 'center 30%', 
         padding: isMobile ? '100px 12px 40px' : '120px 20px 60px'
       }}
@@ -169,7 +169,7 @@ const Hero = () => {
                   className="w-full h-auto object-cover transition-transform duration-500 ease-out" 
                   style={{ transformStyle: 'preserve-3d' }} 
                 />
-                <div className="absolute inset-0" style={{ backgroundImage: 'url("/hero-image.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', mixBlendMode: 'overlay', opacity: 0.5 }}></div>
+                <div className="absolute inset-0" style={{ backgroundImage: 'url("hero-image.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', mixBlendMode: 'overlay', opacity: 0.5 }}></div>
               </div>
               </>
             )}
