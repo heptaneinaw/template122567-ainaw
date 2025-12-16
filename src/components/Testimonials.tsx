@@ -12,28 +12,28 @@ const useCases: UseCaseProps[] = [{
   title: "Einkaufszentren & Malls",
   content: "Verwandeln Sie bestehende LED-Displays in Einkaufszentren in dynamische Einnahmequellen. Bieten Sie Mietern die Möglichkeit zur Eigenwerbung und monetarisieren Sie freie Zeitfenster durch gezielte Werbung von Drittanbietern.",
   gradient: "from-blue-700 via-indigo-800 to-purple-900",
-  backgroundImage: "/background-section1.png"
+  backgroundImage: "background-section1.png"
 }, {
   title: "Einzelhandel & Gastronomie",
   content: "Installieren Sie transparente LED-Folien an Schaufenstern von Cafés, Restaurants und Geschäften. Nutzen Sie die Displays für eigene Promotionen und generieren Sie zusätzliche Einnahmen durch lokale Werbepartnerschaften.",
   gradient: "from-indigo-900 via-purple-800 to-orange-500",
-  backgroundImage: "/background-section2.png"
+  backgroundImage: "background-section2.png"
 }, {
   title: "Einzelhandelsgeschäfte & Shopping-Bereiche",
   content: "Verwandeln Sie Schaufenster in dynamische Werbeflächen. Lokale Geschäfte profitieren von Eigenwerbung und zusätzlichen Einnahmen durch regionale Werbepartnerschaften mit optimaler Kundenreichweite.",
   gradient: "from-purple-800 via-pink-700 to-red-500",
-  backgroundImage: "/background-section3.png"
+  backgroundImage: "background-section3.png"
 }, {
   title: "Verkehrsknotenpunkte & öffentliche Bereiche",
   content: "Nutzen Sie hochfrequentierte Standorte wie Bahnhöfe, Bushaltestellen und öffentliche Plätze. Profitieren Sie von maximaler Reichweite und bieten Sie Werbetreibenden Zugang zu Premium-Standorten zu wettbewerbsfähigen Konditionen.",
   gradient: "from-orange-600 via-red-500 to-purple-600",
-  backgroundImage: "/background-section1.png"
+  backgroundImage: "background-section1.png"
 }];
 
 const UseCaseCard = ({
   content,
   title,
-  backgroundImage = "/background-section1.png"
+  backgroundImage = "background-section1.png"
 }: UseCaseProps) => {
   return <div className="bg-cover bg-center rounded-lg p-8 h-full flex flex-col justify-between text-white transform transition-transform duration-300 hover:-translate-y-2 relative overflow-hidden" style={{
     backgroundImage: `url('${backgroundImage}')`

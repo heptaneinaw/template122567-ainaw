@@ -73,7 +73,7 @@ const INAWVisionSection = () => {
             ...cardStyle,
             transform: isFirstCardVisible ? 'translateY(0px) scale(1)' : 'translateY(50px) scale(0.95)',
             opacity: isFirstCardVisible ? 1 : 0,
-            backgroundImage: "url('/background-section1.png')",
+            backgroundImage: "url('background-section1.png')",
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}
@@ -104,7 +104,7 @@ const INAWVisionSection = () => {
             ...cardStyle,
             transform: isSecondCardVisible ? 'translateY(0px) scale(1)' : 'translateY(50px) scale(0.95)',
             opacity: isSecondCardVisible ? 1 : 0,
-            backgroundImage: "url('/background-section2.png')",
+            backgroundImage: "url('background-section2.png')",
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}
@@ -135,7 +135,7 @@ const INAWVisionSection = () => {
             ...cardStyle,
             transform: isThirdCardVisible ? 'translateY(0px) scale(1)' : 'translateY(50px) scale(0.95)',
             opacity: isThirdCardVisible ? 1 : 0,
-            backgroundImage: "url('/background-section3.png')",
+            backgroundImage: "url('background-section3.png')",
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}
