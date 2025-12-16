@@ -54,20 +54,20 @@ const Navbar = () => {
           }}
           aria-label="INAW"
         >
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-4">
             {/* Window-style logo with "i" */}
-            <div className="w-9 h-9 bg-pulse-500 rounded-md flex items-center justify-center relative overflow-hidden">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 bg-pulse-500 rounded-lg flex items-center justify-center relative overflow-hidden shadow-md">
               {/* Window panes */}
-              <div className="absolute inset-0 grid grid-cols-2 grid-rows-2 gap-[2px] p-[3px]">
-                <div className="bg-pulse-400/30 rounded-sm"></div>
-                <div className="bg-pulse-400/30 rounded-sm"></div>
-                <div className="bg-pulse-400/30 rounded-sm"></div>
-                <div className="bg-pulse-400/30 rounded-sm"></div>
+              <div className="absolute inset-0 grid grid-cols-2 grid-rows-2 gap-[2px] p-[4px]">
+                <div className="bg-white/25 rounded-sm"></div>
+                <div className="bg-white/25 rounded-sm"></div>
+                <div className="bg-white/25 rounded-sm"></div>
+                <div className="bg-white/25 rounded-sm"></div>
               </div>
               {/* Stylized "i" */}
-              <span className="text-white font-bold text-lg z-10 italic">i</span>
+              <span className="text-white font-bold text-xl sm:text-2xl z-10 italic drop-shadow-sm">i</span>
             </div>
-            <span className="text-3xl font-display font-bold text-gray-900 tracking-wide">INAW</span>
+            <span className="text-4xl sm:text-5xl font-display font-bold text-gray-900 tracking-wider">INAW</span>
           </div>
         </a>
 
