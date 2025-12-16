@@ -54,11 +54,20 @@ const Navbar = () => {
           }}
           aria-label="INAW"
         >
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-pulse-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">I</span>
+          <div className="flex items-center space-x-3">
+            {/* Window-style logo with "i" */}
+            <div className="w-9 h-9 bg-pulse-500 rounded-md flex items-center justify-center relative overflow-hidden">
+              {/* Window panes */}
+              <div className="absolute inset-0 grid grid-cols-2 grid-rows-2 gap-[2px] p-[3px]">
+                <div className="bg-pulse-400/30 rounded-sm"></div>
+                <div className="bg-pulse-400/30 rounded-sm"></div>
+                <div className="bg-pulse-400/30 rounded-sm"></div>
+                <div className="bg-pulse-400/30 rounded-sm"></div>
+              </div>
+              {/* Stylized "i" */}
+              <span className="text-white font-bold text-lg z-10 italic">i</span>
             </div>
-            <span className="text-xl font-display font-bold text-gray-900">INAW</span>
+            <span className="text-3xl font-display font-bold text-gray-900 tracking-wide">INAW</span>
           </div>
         </a>
 
